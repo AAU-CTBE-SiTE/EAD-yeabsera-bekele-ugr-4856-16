@@ -1,4 +1,3 @@
-
 package org.example;
 
 import lombok.Data;
@@ -9,15 +8,7 @@ public class Student {
     private String name;
     private int age;
 
-    public Student(int id, String name, int age) {
-        this.id = id;
-        this.name = name;
-        this.age = age;
-
-        System.out.println("Student Parameterized Constructor Called");
-    }
-
-    public void getDetails() {
-        System.out.println("Student Details " + this);
+    public Student() {
+        System.out.println("Empty Constructor...");
     }
 }
